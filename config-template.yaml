@@ -1,4 +1,25 @@
 spotify:
-  client_id: <insert-id-here>
-  client_secret: <insert-secret-here>
-  redirect_url: <insert-url-here>
+  client_id: <spotify_api_client_id>
+  client_secret: <spotify_api_client_secret>
+  redirect_url: <spotify_oauth_redirect_url>
+  source_playlists:
+    - <playlist1_id>
+    - <playlist2_id>
+  fallback_playlist: <fallback_playlist_id>
+  genres:
+    rock:
+      playlist_id: <rock_playlist_id>
+      keywords:
+        - rock
+    edm:
+      playlist_id: <edm_playlist_id>
+      keywords:
+        - edm
+    pop:
+      playlist_id: <pop_playlist_id>
+      keywords:
+        - pop
+    rap:
+      playlist_id: <rap_playlist_id>
+      keywords:
+        - rap
